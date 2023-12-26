@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-top: 25px;
+    /*height: 74px;*/
+    /*  background-color: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-left {
+    font-size: 50px;
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin: 0 72px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    display: flex;
+    margin: 0 14px;
+    transition: all 0.4s ease-in-out;
+
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+
+}
+
+.nav-right{
+    margin-left: 378px;
+}
+
+.content {
+    height: 100%;
+    /*background-color: blue;*/
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.content::after {
+    content: "";
+    background-image: url('../PInterest/jan\ sticker.jpg');
+    position:absolute;
+    width:100%;
+    height: inherit;
+    opacity: 0.12;
+}
+
+.content-left {
+    
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    padding: 23px;
+}
+
+.content-right {
+    size: 300px;
+    margin-right: 32px;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.home-articles {
+    padding-top: 12px;
+    margin-top: 12px;
+    background-color: rgb(236, 198, 236, 0.5);
+    position: relative;
+}
+
+.year-box{
+    position: absolute;
+    width: 234px;
+    height: 255px;
+   /* background-color: chartreuse;*/
+    right: 0px;
+    top: 100px;
+    font-size: 18px;
+}
+
+.year-box div{
+    margin-top: 12px;
+}
+
+.home-article {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.home-article img {
+    width: 300px;
+}
+
+.home-article-content {
+    width: 25vw;
+    position: relative;
+    bottom: 190px;
+    align-self: center;
+    padding: 25px;
+
+}
+
+.home-article-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.home-article-content a:hover{
+    color: purple;
+}
+
+.footer {
+    height: 50px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: plum;
+    font-weight: bolder;
+
+}

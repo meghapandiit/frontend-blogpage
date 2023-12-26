@@ -1,0 +1,25 @@
+.contact-content {
+    height: 395px;
+    height:80vh;
+    /*background-color: blue;*/
+    display: block;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url('../PInterest/jan\ sticker.jpg');
+    position:absolute;
+    top: 0;
+    width:100%;
+    height: inherit;
+    opacity: 0.12;
+    z-index: -1;
+}
+
+.contact-form{
+   height:80vh;
+}
